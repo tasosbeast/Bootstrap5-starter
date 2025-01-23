@@ -1,0 +1,18 @@
+{
+  "name": "bootstrap5-starter",
+  "version": "1.0.0",
+  "description": "Starter template for bootstrap5 websites",
+  "license": "MIT",
+  "author": "Tasosbeast",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass scss:css --no-source-map",
+    "sass:watch": "sass scss:css --no-source-map --watch"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "bootstrap": "^5.3.3",
+    "sass": "^1.83.4"
+  }
+}
